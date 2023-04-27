@@ -5,6 +5,15 @@ TagManager:
   serializedVersion: 2
   tags:
   - Death
+  - Chatbox1
+  - Chatbox2
+  - Chatbox3
+  - C1
+  - C2
+  - C3
+  - CloseChat
+  - Chatbox4
+  - C4
   layers:
   - Default
   - TransparentFX
