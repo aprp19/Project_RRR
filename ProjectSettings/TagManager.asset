@@ -23,7 +23,7 @@ TagManager:
   - Water
   - UI
   - BackgroundEnv
-  - 
+  - BackgroundEnv2
   - 
   - 
   - 
@@ -51,4 +51,7 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Env2
+    uniqueID: 3819410817
     locked: 0
