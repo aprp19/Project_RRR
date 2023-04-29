@@ -15,6 +15,7 @@ TagManager:
   - Chatbox4
   - C4
   - NextScene
+  - SpikeTrigger
   layers:
   - Default
   - TransparentFX
