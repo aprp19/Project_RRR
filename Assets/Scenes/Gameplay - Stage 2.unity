@@ -1064,7 +1064,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Aku dimana?
+  m_text: Akhirnya aku berhasil keluar dari gua yang sangat gelap !
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 33b7eda9608074444b8be007d8cd4ce5, type: 2}
   m_sharedMaterial: {fileID: 2306900666927058551, guid: 33b7eda9608074444b8be007d8cd4ce5, type: 2}
