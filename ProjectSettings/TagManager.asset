@@ -17,6 +17,9 @@ TagManager:
   - NextScene
   - SpikeTrigger
   - EndScene
+  - C5
+  - Chatbox5
+  - S2CloseChat
   layers:
   - Default
   - TransparentFX

@@ -43,11 +43,22 @@ public class PlayerManager : MonoBehaviour
             GameObject.FindWithTag("Chatbox4").SetActive(false);
             c4.SetActive(true);
         }
+        
+        if (col.gameObject.CompareTag("Chatbox5"))
+        {
+            GameObject.FindWithTag("Chatbox5").SetActive(false);
+            GameObject.FindWithTag("C5").SetActive(true);
+        }
+
+        if (col.gameObject.CompareTag("S2CloseChat"))
+        {
+            GameObject.FindWithTag("S2CloseChat").SetActive(false);
+            GameObject.FindWithTag("C5").SetActive(false);
+        }
 
         if (col.gameObject.CompareTag("CloseChat"))
         {
             GameObject.FindWithTag("CloseChat").SetActive(false);
-            GameObject.FindWithTag("C1").SetActive(false);
             c1.SetActive(false);
             c2.SetActive(false);
             c3.SetActive(false);
@@ -63,5 +74,7 @@ public class PlayerManager : MonoBehaviour
         {
             SceneManager.LoadScene("MainMenu");
         }
+
+        
     }
 }
