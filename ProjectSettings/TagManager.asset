@@ -16,6 +16,7 @@ TagManager:
   - C4
   - NextScene
   - SpikeTrigger
+  - EndScene
   layers:
   - Default
   - TransparentFX

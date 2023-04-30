@@ -47,6 +47,9 @@ public class PlayerManager : MonoBehaviour
         if (col.gameObject.CompareTag("CloseChat"))
         {
             GameObject.FindWithTag("CloseChat").SetActive(false);
+            GameObject.FindWithTag("C1").SetActive(false);
+            c1.SetActive(false);
+            c2.SetActive(false);
             c3.SetActive(false);
             c4.SetActive(false);
         }
@@ -54,6 +57,11 @@ public class PlayerManager : MonoBehaviour
         if (col.gameObject.CompareTag("NextScene"))
         {
             SceneManager.LoadScene("Gameplay - Stage 2");
+        }
+
+        if (col.gameObject.CompareTag("EndScene"))
+        {
+            SceneManager.LoadScene("MainMenu");
         }
     }
 }
